@@ -1,0 +1,652 @@
+<!DOCTYPE html><html class="dark" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Steve Jon Solutions | Transforming Ideas into Digital Reality</title>
+<link href="./style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link rel="icon" href="/logo.png" type="image/png">
+</head>
+<body class="font-body-md text-body-md overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-gray-100/90 backdrop-blur-xl saturate-180 dark:bg-gray-100/90 shadow-sm border-b border-outline-variant/10 h-24 text-gray-900">
+<div class="max-w-container-max mx-auto px-margin-desktop flex justify-between items-center h-full">
+<div class="flex items-center">
+    <a href="/" aria-label="Home">
+        <img src="/logo.png" alt="Steve Jon Solutions Logo" class="h-16 md:h-24 w-auto object-contain transition-transform hover:scale-105">
+    </a>
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-gray-600 hover:text-gray-900 transition-colors font-body-md text-body-md" href="/#services">Services</a>
+<a class="text-gray-600 hover:text-gray-900 transition-colors font-body-md text-body-md" href="/#portfolio">Portfolio</a>
+<a class="text-gray-600 hover:text-gray-900 transition-colors font-body-md text-body-md" href="/#process">Process</a>
+<a class="text-gray-600 hover:text-gray-900 transition-colors font-body-md text-body-md" href="/#about">About</a>
+<a class="bg-primary-container text-on-primary-container px-6 py-2.5 rounded-full font-bold active:scale-95 transition-all hover:bg-primary-container/90" href="/#contact">
+                    Get Free Consultation
+                </a>
+</div>
+<button id="mobileMenuBtn" class="md:hidden text-gray-900 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+<!-- Mobile Menu Dropdown -->
+<div id="mobileMenu" class="absolute top-24 left-0 w-full bg-gray-100/95 backdrop-blur-xl border-b border-outline-variant/10 flex flex-col items-center py-8 gap-6 hidden shadow-lg md:hidden transition-all duration-300 transform -translate-y-4 opacity-0 z-40">
+    <a class="text-gray-900 font-bold text-xl hover:text-primary transition-colors mobile-link" href="/#services">Services</a>
+    <a class="text-gray-900 font-bold text-xl hover:text-primary transition-colors mobile-link" href="/#portfolio">Portfolio</a>
+    <a class="text-gray-900 font-bold text-xl hover:text-primary transition-colors mobile-link" href="/#process">Process</a>
+    <a class="text-gray-900 font-bold text-xl hover:text-primary transition-colors mobile-link" href="/#about">About</a>
+    <a class="bg-primary text-on-primary px-8 py-3 rounded-full font-bold hover:scale-105 active:scale-95 transition-all mt-4 mobile-link shadow-md" href="/#contact">
+        Get Free Consultation
+    </a>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-screen flex items-center pt-32 md:pt-40 pb-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background z-10"></div>
+<div class="w-full h-full bg-center bg-cover scale-105" style="background-image: url('/hero-bg.png');"></div>
+</div>
+<div class="relative z-20 max-w-container-max mx-auto px-margin-desktop w-full">
+<div class="max-w-3xl">
+<span class="inline-block px-4 py-1.5 mb-6 rounded-full bg-primary-container/20 border border-primary/30 font-label-sm text-label-sm text-primary uppercase tracking-widest">
+                    Next-Gen Engineering
+                </span>
+<h1 class="font-display text-5xl md:text-display text-on-surface mb-6 leading-tight">
+                    Transforming Ideas into <span class="text-gradient">Powerful Digital</span> Solutions
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-2xl">
+                    Custom Software Development, Mobile Apps, Web Solutions, AI Integration, and Digital Transformation Services for the modern enterprise.
+                </p>
+<div class="flex flex-wrap gap-4">
+<a class="px-8 py-4 rounded-xl bg-primary-container text-on-primary-container font-bold text-lg hover:scale-105 active:scale-95 transition-all flex items-center gap-2" href="/#contact">
+                        Get Free Consultation
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+<a class="px-8 py-4 rounded-xl border border-outline-variant hover:bg-white/5 font-bold text-lg transition-all" href="/#portfolio">
+                        View Portfolio
+                    </a>
+</div>
+</div>
+</div>
+</header>
+<!-- About Section -->
+<section class="py-24 bg-surface-container-lowest" id="about">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div>
+<h2 class="font-headline-lg text-3xl md:text-headline-lg text-on-surface mb-8">Crafting Excellence from <span class="text-primary">Calicut</span></h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 leading-relaxed">
+                        Based in the heart of Kerala, Steve Jon Solutions LLP is a premium technology partner dedicated to high-velocity shipping and software craftsmanship. We blend global engineering standards with local precision.
+                    </p>
+<div class="glass-card p-6 rounded-2xl mb-8 flex items-start gap-4">
+<span class="material-symbols-outlined text-primary text-4xl">location_on</span>
+<div>
+<h4 class="font-bold text-on-surface text-lg">Our Headquarters</h4>
+<p class="text-on-surface-variant">Door No: 58/1617, South Beach Road, Kuttichira, Calicut, Kerala.</p>
+</div>
+</div>
+<div class="flex flex-wrap gap-3">
+<span class="px-4 py-2 rounded-lg bg-surface-container-high border border-outline-variant/30 text-primary font-label-sm text-label-sm">SOFTWARE DEV</span>
+<span class="px-4 py-2 rounded-lg bg-surface-container-high border border-outline-variant/30 text-primary font-label-sm text-label-sm">MOBILE APPS</span>
+<span class="px-4 py-2 rounded-lg bg-surface-container-high border border-outline-variant/30 text-primary font-label-sm text-label-sm">CLOUD INFRA</span>
+<span class="px-4 py-2 rounded-lg bg-surface-container-high border border-outline-variant/30 text-primary font-label-sm text-label-sm">AI SYSTEMS</span>
+<span class="px-4 py-2 rounded-lg bg-surface-container-high border border-outline-variant/30 text-primary font-label-sm text-label-sm">UI/UX DESIGN</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-4 pt-12">
+<div class="h-64 rounded-3xl overflow-hidden glass-card relative group">
+<div class="absolute inset-0 bg-center bg-cover group-hover:scale-110 transition-transform duration-700" data-alt="A cinematic, high-angle interior shot of a minimalist, tech-focused office space in Calicut. Natural light floods through large windows onto sleek, dark desks equipped with high-end monitors showing complex code. The atmosphere is quiet, professional, and sophisticated, reflecting a modern software agency aesthetic with deep navy and electric blue highlights." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCVgKnAqQZHuCFiOnjIE8idCe26JYLS3A4l4dV9a5QZGrdMQYFZLVS0QJ91WFLRiicQkx7jsPkPntZ8MuIBiM3wBHQfcVyJNczI4kqhvGSCm7w1hTSRwMKOe5Y4rZCR9e1rq2QaJpMlB8eTQ7zp3toQIeOFVAJFtlULRZTfQXXseBjKxtYUbkD3Oej2kbdD8DxUP7CAFmNi39GEzLJfJqR4S3EN8junXCnp6z590jD3JasaMyHzkyCDt0wE9wVn8rr1L23ytNwFDnM')"></div>
+</div>
+<div class="h-48 rounded-3xl overflow-hidden glass-card relative group">
+<div class="absolute inset-0 bg-center bg-cover group-hover:scale-110 transition-transform duration-700" data-alt="Close-up of a collaborative engineering team reviewing software architecture on a glass white board. The scene is lit with cool blue LED accents, highlighting the focused expressions of the professionals. The aesthetic is clean, professional, and evokes a sense of high-performance development and strategic planning." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCdS48fEyxWUIIUpjZQs2lFVmt_yBYpx4vdzurrx5M1QpU5kix-2OUrq9tMJo8R53VU2R37fsUH8slfyYRRaGr4Hmw-c3qb1ML1gdl_GuSG0mROcSw2_9AyZE3OVWBTbFpnmRcECQE0FBPhQ6yKLWirkKEqQfl5rnfpNjBx0eD6JSASDcQ2JwQDBfgAWaioGwldVGZBmIVA__RSb0Bb3LWBgfyJGQTzPNt52JCYjqfgE2v2MFJELSdJYXpWzXP3zzh5bwzMndYX3a8')"></div>
+</div>
+</div>
+<div class="space-y-4">
+<div class="h-48 rounded-3xl overflow-hidden glass-card relative group">
+<div class="absolute inset-0 bg-center bg-cover group-hover:scale-110 transition-transform duration-700" data-alt="Abstract digital rendering of a glowing neural network mesh representing AI integration and software connectivity. Vibrant lines of light pulse through a dark, deep blue space, creating a sense of rapid data flow and advanced technological capability. The style is minimalist and high-end." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC8vW5mdc_xh8mD2eYfAe46RW34wpdJCuxe4-zEacLr1Uzpn1iUz3OjyEUIBWNRrGByBeRupLNqQOtfxasrGPg1cxaM9iRL9t29CR6vOoE7Pw6EUU7rkzNbdU2RGBrLoRHzR31ZIutq2UH1yhj2V4SpWIdfEALjbu7oYAiWfd-R-nnJDWyf3RhLMVQGq6YFbc9K6m7jYA52nrrd8-J_NO3N256boQlEWMTYV1EqKaLnKypx_KMmdlMKBwfyVeD0PDdgcc3n7YSw9_0')"></div>
+</div>
+<div class="h-64 rounded-3xl overflow-hidden glass-card relative group">
+<div class="absolute inset-0 bg-center bg-cover group-hover:scale-110 transition-transform duration-700" data-alt="A high-fidelity shot of a smartphone and tablet displaying premium, modern UI designs for a mobile app. The devices are set on a dark, reflective surface with soft ambient blue lighting. The design on screen is clean, user-centric, and exemplifies top-tier digital craftsmanship." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDzFdB9jl1qoT6gh5ONncdSjIuHfrh8Ii5pb-PQVN5jvTpbEZp6Qa05-rLtLWxrnuq7Sc50_NKlxQnKeVWsq4wVD7E-VdqOzoZKTPp-R9bI4mAWKwnM2YIEVJ6i-R_CGzSr8rBfinfs-tGS8FB68nJPI2sdEiw0vtFgzdRMpn9v2SZx6BO2vTTVOQL0ZJPNoRs-fPU4FLT26lqxHGeYOhsg91FcIbJrDaNcMke5as91BzMq798jQysWGk8sF6Fa1ArN37kyEHEKV8c')"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Grid -->
+<section class="py-24" id="services">
+<div class="max-w-container-max mx-auto px-margin-desktop text-center mb-16">
+<h2 class="font-headline-lg text-3xl md:text-headline-lg mb-4">Core Expertise</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">We provide end-to-end digital engineering services tailored for scalability and performance.</p>
+</div>
+<div class="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Custom Software -->
+<div class="glass-card p-8 rounded-3xl group">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">terminal</span>
+<h3 class="text-xl font-bold mb-4">Custom Software</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">Tailor-made solutions designed to solve your unique business challenges with surgical precision.</p>
+<div class="w-12 h-1 bg-primary/20 rounded-full group-hover:w-full transition-all"></div>
+</div>
+<!-- Web App -->
+<div class="glass-card p-8 rounded-3xl group">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">language</span>
+<h3 class="text-xl font-bold mb-4">Web Apps</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">High-performance React and Angular applications built for speed, security, and global scale.</p>
+<div class="w-12 h-1 bg-primary/20 rounded-full group-hover:w-full transition-all"></div>
+</div>
+<!-- Mobile App -->
+<div class="glass-card p-8 rounded-3xl group">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">smartphone</span>
+<h3 class="text-xl font-bold mb-4">Mobile Apps</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">Native and cross-platform mobile experiences that users love, built on Flutter and React Native.</p>
+<div class="w-12 h-1 bg-primary/20 rounded-full group-hover:w-full transition-all"></div>
+</div>
+<!-- E-Commerce -->
+<div class="glass-card p-8 rounded-3xl group">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">shopping_bag</span>
+<h3 class="text-xl font-bold mb-4">E-Commerce</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">Robust online storefronts with secure payment integrations and seamless inventory management.</p>
+<div class="w-12 h-1 bg-primary/20 rounded-full group-hover:w-full transition-all"></div>
+</div>
+<!-- AI -->
+<div class="glass-card p-8 rounded-3xl group">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">neurology</span>
+<h3 class="text-xl font-bold mb-4">AI &amp; Automation</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">Integrating LLMs and machine learning to automate workflows and drive intelligent insights.</p>
+<div class="w-12 h-1 bg-primary/20 rounded-full group-hover:w-full transition-all"></div>
+</div>
+<!-- Cloud -->
+<div class="glass-card p-8 rounded-3xl group">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">cloud</span>
+<h3 class="text-xl font-bold mb-4">Cloud Solutions</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">Modernizing infrastructure with AWS and Azure to ensure 99.9% uptime and auto-scaling.</p>
+<div class="w-12 h-1 bg-primary/20 rounded-full group-hover:w-full transition-all"></div>
+</div>
+<!-- UI/UX -->
+<div class="glass-card p-8 rounded-3xl group">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">design_services</span>
+<h3 class="text-xl font-bold mb-4">UI/UX Design</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">User-centric design systems that bridge the gap between complex functionality and simplicity.</p>
+<div class="w-12 h-1 bg-primary/20 rounded-full group-hover:w-full transition-all"></div>
+</div>
+<!-- Maintenance -->
+<div class="glass-card p-8 rounded-3xl group">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">support_agent</span>
+<h3 class="text-xl font-bold mb-4">Maintenance</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">24/7 ongoing support and performance monitoring to keep your digital assets running flawlessly.</p>
+<div class="w-12 h-1 bg-primary/20 rounded-full group-hover:w-full transition-all"></div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us: Bento Grid -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<h2 class="font-headline-lg text-3xl md:text-headline-lg text-center mb-16">Why Engineering Leaders <br> Choose <span class="text-primary">Steve Jon</span></h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="md:col-span-2 glass-card p-10 rounded-3xl flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-primary mb-4 text-5xl">groups</span>
+<h3 class="text-3xl font-bold mb-4">Experienced Team</h3>
+<p class="text-on-surface-variant text-lg">Our architects and developers come from top-tier engineering backgrounds, ensuring that every line of code we write is optimized for performance and maintainability.</p>
+</div>
+</div>
+<div class="glass-card p-10 rounded-3xl">
+<span class="material-symbols-outlined text-primary mb-4 text-4xl">shuffle</span>
+<h3 class="text-2xl font-bold mb-4">Agile Process</h3>
+<p class="text-on-surface-variant">Weekly sprints and transparent communication ensure your project moves forward at light speed.</p>
+</div>
+<div class="glass-card p-10 rounded-3xl">
+<span class="material-symbols-outlined text-primary mb-4 text-4xl">timer</span>
+<h3 class="text-2xl font-bold mb-4">On-Time Delivery</h3>
+<p class="text-on-surface-variant">We value time as much as quality. Our rigorous project management ensures zero delays.</p>
+</div>
+<div class="glass-card p-10 rounded-3xl">
+<span class="material-symbols-outlined text-primary mb-4 text-4xl">trending_up</span>
+<h3 class="text-2xl font-bold mb-4">Scalable Architectures</h3>
+<p class="text-on-surface-variant">Built to grow. We design systems that handle 10x traffic increases without breaking a sweat.</p>
+</div>
+<div class="glass-card p-10 rounded-3xl">
+<span class="material-symbols-outlined text-primary mb-4 text-4xl">verified_user</span>
+<h3 class="text-2xl font-bold mb-4">Enterprise Security</h3>
+<p class="text-on-surface-variant">Security is baked in, not bolted on. We follow OWASP standards for all application development.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Portfolio Section -->
+<section class="py-24" id="portfolio">
+<div class="max-w-container-max mx-auto px-margin-desktop mb-16 flex justify-between items-end">
+<div>
+<h2 class="font-headline-lg text-3xl md:text-headline-lg mb-4">Featured Work</h2>
+<p class="text-on-surface-variant">A glimpse into the products we've helped launch.</p>
+</div>
+<a class="text-primary font-bold hover:underline" href="#">View All Projects</a>
+</div>
+<div class="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Project 1 -->
+<div class="group">
+<div class="relative aspect-video rounded-2xl overflow-hidden mb-6 border border-outline-variant/20">
+<div class="absolute inset-0 bg-center bg-cover group-hover:scale-105 transition-transform duration-500" data-alt="A sleek dashboard interface for a financial technology application. The UI features dark mode aesthetics, vibrant neon blue data visualizations, and clean typography. The image captures the high-precision and modern design standard of the software developed by Steve Jon Solutions." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDQWMRsIt830GOKL0CqkjDt3ceASGYce9-bFzRJmlB6vMTEPin00I_SX8gF2mgrML8o3ZPXSNFYmAW8HZSNa8Jz5hGUMRXfbWU2twAvEDfSmUWBFxh0twIwKwWAd0Eey9muY2KFQQMnGFPyVm9cMIl5uyRlNGJCzEdU0jBS1U80-TzZIt3zP2RjZBMLktxEXUQu0dR2QFLMzYfFFDJyDMj1NIVfSDEylqPjJkwbfAT_F35dtrk5yfV7ZvytHpcPyMMmkFbJwv5SQq8')"></div>
+</div>
+<div class="flex gap-2 mb-3">
+<span class="text-[10px] font-bold px-2 py-0.5 rounded bg-primary/10 text-primary uppercase">FINTECH</span>
+<span class="text-[10px] font-bold px-2 py-0.5 rounded bg-primary/10 text-primary uppercase">REACT</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Financier Pro</h3>
+<p class="text-on-surface-variant text-sm mb-6">Real-time wealth management platform for high-net-worth individuals.</p>
+<button class="w-full py-3 rounded-xl border border-outline-variant hover:border-primary transition-all text-sm font-bold">View Case Study</button>
+</div>
+<!-- Project 2 -->
+<div class="group">
+<div class="relative aspect-video rounded-2xl overflow-hidden mb-6 border border-outline-variant/20">
+<div class="absolute inset-0 bg-center bg-cover group-hover:scale-105 transition-transform duration-500" data-alt="A modern mobile health app interface showing activity tracking and heart rate monitoring. The design is clean with soft gradients of blue and white, featuring high-fidelity iconography and a user-friendly layout. It reflects the company's capability in building high-performance mobile solutions." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCIdtcLeFks_ZqpHrkJkfDP08rkoXSDjru1YDUZJkXu-TltTeehWBV69vas-UT3vOcTFiYE7M4rKMh7xK6-Aw7tQpdyefRlJhqJY6HyM6SeAyDCbrF0DnAVldgQMu2EelcfQuuZlTyISxtotF8hGI-MJTOldM4CV88QIhpzadPPATnfioT69FWThgt_SNiM4tPCoNlTVQyaS_8TKqxjR4zKhk3X4b471tLA9tldIVg10yNbuwlpdC-JmI_CY7AmI-8trFxFnU8pia4')"></div>
+</div>
+<div class="flex gap-2 mb-3">
+<span class="text-[10px] font-bold px-2 py-0.5 rounded bg-primary/10 text-primary uppercase">HEALTHCARE</span>
+<span class="text-[10px] font-bold px-2 py-0.5 rounded bg-primary/10 text-primary uppercase">FLUTTER</span>
+</div>
+<h3 class="text-xl font-bold mb-2">VitalCare Mobile</h3>
+<p class="text-on-surface-variant text-sm mb-6">Empowering patients with real-time health tracking and doctor consultation.</p>
+<button class="w-full py-3 rounded-xl border border-outline-variant hover:border-primary transition-all text-sm font-bold">View Case Study</button>
+</div>
+<!-- Project 3 -->
+<div class="group">
+<div class="relative aspect-video rounded-2xl overflow-hidden mb-6 border border-outline-variant/20">
+<div class="absolute inset-0 bg-center bg-cover group-hover:scale-105 transition-transform duration-500" data-alt="An expansive e-commerce marketplace platform for high-end electronic brands. The UI is clean, minimalist, and focuses on high-quality product imagery and a seamless checkout experience. It showcases sophisticated web application engineering and scalable architecture." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCsF2Q9XApKxpYWKfUMZxSe0DlFGGmTQ4Nk7x1re-i6gPhMltTN0vTpjQkqfPXn9auosC1vRBAan6yfwdxt_nFPd63_4PM0nIGitFJTs3stAisg6SaovrFlJZlVAz5-McrvQEEq87K53QYHEFOe3wGlI59hlusd-3nQuCuCqX9ZVBf2oFFEDBcILokZ4xMv7LLTU32enUpEV7qL2tg616Dxkqlr1tE1iPAtvJHDMUEG_f20FuxVwytznfwGH1bfahckdcRDsaLJPHk')"></div>
+</div>
+<div class="flex gap-2 mb-3">
+<span class="text-[10px] font-bold px-2 py-0.5 rounded bg-primary/10 text-primary uppercase">E-COMMERCE</span>
+<span class="text-[10px] font-bold px-2 py-0.5 rounded bg-primary/10 text-primary uppercase">NEXT.JS</span>
+</div>
+<h3 class="text-xl font-bold mb-2">ElectroStore Global</h3>
+<p class="text-on-surface-variant text-sm mb-6">A multi-vendor marketplace handling 50k+ daily transactions with ease.</p>
+<button class="w-full py-3 rounded-xl border border-outline-variant hover:border-primary transition-all text-sm font-bold">View Case Study</button>
+</div>
+</div>
+</section>
+<!-- Development Process -->
+<section class="py-24 bg-surface-container-lowest" id="process">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<h2 class="font-headline-lg text-3xl md:text-headline-lg text-center mb-20">The Roadmap to <span class="text-primary">Success</span></h2>
+<div class="relative">
+<!-- Timeline Line -->
+<div class="absolute top-1/2 left-0 w-full h-px bg-outline-variant/30 hidden lg:block -translate-y-1/2"></div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-8">
+<!-- Step 1 -->
+<div class="relative z-10 flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center font-bold mb-6 ring-8 ring-background">1</div>
+<h4 class="font-bold mb-2">Discovery</h4>
+<p class="text-xs text-on-surface-variant">Defining goals &amp; requirements</p>
+</div>
+<!-- Step 2 -->
+<div class="relative z-10 flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-full bg-surface-container-high border border-outline-variant text-on-surface flex items-center justify-center font-bold mb-6 ring-8 ring-background">2</div>
+<h4 class="font-bold mb-2">Planning</h4>
+<p class="text-xs text-on-surface-variant">Architecture &amp; Roadmap</p>
+</div>
+<!-- Step 3 -->
+<div class="relative z-10 flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-full bg-surface-container-high border border-outline-variant text-on-surface flex items-center justify-center font-bold mb-6 ring-8 ring-background">3</div>
+<h4 class="font-bold mb-2">Design</h4>
+<p class="text-xs text-on-surface-variant">UI/UX Prototypes</p>
+</div>
+<!-- Step 4 -->
+<div class="relative z-10 flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-full bg-surface-container-high border border-outline-variant text-on-surface flex items-center justify-center font-bold mb-6 ring-8 ring-background">4</div>
+<h4 class="font-bold mb-2">Development</h4>
+<p class="text-xs text-on-surface-variant">Code implementation</p>
+</div>
+<!-- Step 5 -->
+<div class="relative z-10 flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-full bg-surface-container-high border border-outline-variant text-on-surface flex items-center justify-center font-bold mb-6 ring-8 ring-background">5</div>
+<h4 class="font-bold mb-2">Testing</h4>
+<p class="text-xs text-on-surface-variant">QA &amp; Bug fixing</p>
+</div>
+<!-- Step 6 -->
+<div class="relative z-10 flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-full bg-surface-container-high border border-outline-variant text-on-surface flex items-center justify-center font-bold mb-6 ring-8 ring-background">6</div>
+<h4 class="font-bold mb-2">Deployment</h4>
+<p class="text-xs text-on-surface-variant">Cloud Launch</p>
+</div>
+<!-- Step 7 -->
+<div class="relative z-10 flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center font-bold mb-6 ring-8 ring-background">7</div>
+<h4 class="font-bold mb-2">Support</h4>
+<p class="text-xs text-on-surface-variant">Ongoing maintenance</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Technology Stack -->
+<section class="py-20 border-y border-outline-variant/10">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<p class="text-center font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-12">Our Core Stack</p>
+<div class="flex flex-wrap justify-center items-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all">
+<span class="font-bold text-2xl flex items-center gap-2"><span class="material-symbols-outlined text-primary">data_object</span> React</span>
+<span class="font-bold text-2xl flex items-center gap-2"><span class="material-symbols-outlined text-primary">terminal</span> Node.js</span>
+<span class="font-bold text-2xl flex items-center gap-2"><span class="material-symbols-outlined text-primary">smartphone</span> Flutter</span>
+<span class="font-bold text-2xl flex items-center gap-2"><span class="material-symbols-outlined text-primary">cloud_done</span> AWS</span>
+<span class="font-bold text-2xl flex items-center gap-2"><span class="material-symbols-outlined text-primary">code</span> Python</span>
+<span class="font-bold text-2xl flex items-center gap-2"><span class="material-symbols-outlined text-primary">layers</span> Laravel</span>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-24">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<h2 class="font-headline-lg text-3xl md:text-headline-lg text-center mb-16">Client Success Stories</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="glass-card p-10 rounded-3xl relative">
+<span class="material-symbols-outlined text-primary/20 absolute top-8 right-8 text-6xl">format_quote</span>
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 rounded-full bg-surface-container-high"></div>
+<div>
+<h5 class="font-bold">Rahul Menon</h5>
+<p class="text-xs text-on-surface-variant">CEO, TechFlow Solutions</p>
+</div>
+</div>
+<p class="text-on-surface-variant italic">"Steve Jon Solutions transformed our legacy system into a modern cloud-native powerhouse. Their expertise in AWS and React is truly top-tier."</p>
+</div>
+<div class="glass-card p-10 rounded-3xl relative">
+<span class="material-symbols-outlined text-primary/20 absolute top-8 right-8 text-6xl">format_quote</span>
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 rounded-full bg-surface-container-high"></div>
+<div>
+<h5 class="font-bold">Sarah Williams</h5>
+<p class="text-xs text-on-surface-variant">Product Manager, HealthFirst</p>
+</div>
+</div>
+<p class="text-on-surface-variant italic">"The mobile app they built for us received 5-star ratings within the first month. The UI/UX is exceptionally smooth and intuitive."</p>
+</div>
+<div class="glass-card p-10 rounded-3xl relative">
+<span class="material-symbols-outlined text-primary/20 absolute top-8 right-8 text-6xl">format_quote</span>
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 rounded-full bg-surface-container-high"></div>
+<div>
+<h5 class="font-bold">Anish Jose</h5>
+<p class="text-xs text-on-surface-variant">Founder, LocalMarket</p>
+</div>
+</div>
+<p class="text-on-surface-variant italic">"Working with them was seamless. They understood our requirements perfectly and delivered ahead of schedule."</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-24 bg-surface-container-lowest" id="contact">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+<div>
+<h2 class="font-headline-lg text-3xl md:text-headline-lg mb-8">Let's Build Something <br><span class="text-primary">Exceptional</span> Together</h2>
+<p class="text-on-surface-variant mb-12">Ready to start your digital transformation? Fill out the form or reach us via our details.</p>
+<form id="contact-form" action="https://formsubmit.co/ajax/info@stevejon.com" method="POST" class="space-y-6">
+<input type="hidden" name="_captcha" value="false">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-sm text-label-sm mb-2 text-on-surface-variant uppercase tracking-wider">Full Name</label>
+<input class="w-full bg-background border border-outline-variant rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary outline-none transition-all" placeholder="John Doe" type="text" name="name" required>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm mb-2 text-on-surface-variant uppercase tracking-wider">Work Email</label>
+<input class="w-full bg-background border border-outline-variant rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary outline-none transition-all" placeholder="john@company.com" type="email" name="email" required>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm mb-2 text-on-surface-variant uppercase tracking-wider">Project Type</label>
+<select class="w-full bg-background border border-outline-variant rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary outline-none transition-all" name="project_type">
+<option>Custom Software</option>
+<option>Mobile Application</option>
+<option>Web Platform</option>
+<option>AI Integration</option>
+</select>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm mb-2 text-on-surface-variant uppercase tracking-wider">Message</label>
+<textarea class="w-full bg-background border border-outline-variant rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary outline-none transition-all" placeholder="Tell us about your vision..." rows="4" name="message" required></textarea>
+</div>
+<button type="submit" class="w-full py-4 bg-primary text-on-primary font-bold rounded-xl hover:scale-[1.02] active:scale-95 transition-all">Send Message</button>
+<div id="form-message" class="hidden text-center mt-4 font-bold"></div>
+</form>
+</div>
+<div class="flex flex-col justify-between">
+<div class="space-y-8">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">mail</span>
+<div>
+<h4 class="font-bold">Email Us</h4>
+<p class="text-on-surface-variant">info@stevejon.com</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">call</span>
+<div>
+<h4 class="font-bold">Phone</h4>
+<p class="text-on-surface-variant">9995433003</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">pin_drop</span>
+<div>
+<h4 class="font-bold">Location</h4>
+<p class="text-on-surface-variant">Calicut, Kerala, India</p>
+</div>
+</div>
+</div>
+<div class="mt-12 rounded-3xl overflow-hidden h-64 glass-card relative">
+<iframe class="absolute inset-0 w-full h-full border-0 grayscale opacity-70 mix-blend-luminosity hover:opacity-100 hover:grayscale-0 hover:mix-blend-normal transition-all duration-500" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125218.42398463564!2d75.71765270213198!3d11.255850937409252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4727%3A0x3f123331f0ba2204!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1714571822839!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-100 dark:bg-gray-100 text-gray-900 w-full border-t border-outline-variant/10">
+<div class="max-w-container-max mx-auto px-margin-desktop py-20 grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="col-span-1 md:col-span-1">
+<div class="mb-6 inline-block">
+    <a href="/" aria-label="Home">
+        <img src="/logo.png" alt="Steve Jon Solutions Logo" class="h-20 md:h-32 w-auto object-contain transition-transform hover:scale-105">
+    </a>
+</div>
+<p class="text-gray-600 text-sm leading-relaxed mb-6">Building the digital future with technical precision and surgical craftsmanship. Expert software solutions for modern enterprises.</p>
+<div class="flex gap-4 items-center">
+<a href="https://www.instagram.com/stevejonsolutions?igsh=MXJ0ZXpkemJsbTVjYw==" target="_blank" class="text-gray-600 hover:text-primary transition-colors">
+<svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+</a>
+<a href="https://www.facebook.com/share/1TjDSdNcTy/" target="_blank" class="text-gray-600 hover:text-primary transition-colors">
+<svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+</a>
+<a href="https://www.threads.com/@stevejonsolutions" target="_blank" class="text-gray-600 hover:text-primary transition-colors">
+<svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M14.072 20.301c-1.391.464-2.912.576-4.394.341-2.023-.321-3.83-1.428-5.044-3.111-1.205-1.664-1.743-3.719-1.503-5.748.24-2.021 1.258-3.855 2.836-5.12 1.579-1.266 3.606-1.842 5.626-1.597 1.895.23 3.605 1.189 4.8 2.664.296.368.566.757.808 1.168.106.183.195.385.253.593.033.117.155.197.275.18h2.091c.148 0 .265-.13.25-.278-.063-.564-.207-1.116-.425-1.637-.624-1.492-1.6-2.795-2.846-3.774C14.777 2.378 12.186 1.734 9.544 2.1c-2.61.365-4.957 1.722-6.55 3.8-1.583 2.063-2.274 4.707-1.936 7.305.337 2.593 1.633 4.962 3.633 6.643 2.016 1.69 4.618 2.518 7.247 2.3 1.94-.162 3.79-.893 5.342-2.115 1.488-1.173 2.595-2.736 3.167-4.526.471-1.472.636-3.033.473-4.573-.207-1.96-1.025-3.791-2.316-5.215-1.296-1.431-3.018-2.39-4.887-2.72-1.884-.334-3.834-.092-5.552.709-1.726.804-3.155 2.148-4.062 3.821-.901 1.66-.192 3.238.167 4.71.368 1.5.097 2.946.541 4.293 1.258.916 2.766 1.341 4.391 1.251 1.583-.087 3.093-.728 4.24-1.802 1.135-1.06 1.905-2.493 2.164-4.041.054-.325-.098-.65-.37-.803l-1.864-.997c-.244-.131-.54-.055-.71.163-.695.892-1.748 1.442-2.871 1.493-1.157.051-2.296-.44-3.097-1.32-.782-.863-1.127-2.039-1.002-3.195.127-1.172.761-2.247 1.748-2.932.999-.694 2.228-.921 3.407-.638 1.151.275 2.155 1.01 2.723 2.016.14.25.105.568-.093.774l-1.067.893c-.092.077-.145.188-.145.308v6.486c0 .138.08.261.206.313z"/></svg>
+</a>
+<a href="https://wa.me/919995433003" target="_blank" class="text-gray-600 hover:text-primary transition-colors">
+<svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M12.031 0C5.397 0 .016 5.38.016 12.014c0 2.115.548 4.182 1.59 6.002L.004 24l6.113-1.603a11.96 11.96 0 005.914 1.564h.005c6.632 0 12.013-5.381 12.013-12.015C24.049 5.38 18.666 0 12.031 0zM12.03 21.956h-.003c-1.787 0-3.539-.48-5.073-1.39l-.364-.216-3.773.99.998-3.68-.236-.376a10.02 10.02 0 01-1.53-5.32c0-5.526 4.498-10.025 10.025-10.025 5.525 0 10.023 4.498 10.023 10.025 0 5.526-4.498 10.025-10.024 10.025zm5.502-7.502c-.302-.152-1.783-.881-2.062-.981-.277-.102-.48-.152-.682.152-.202.302-.782.981-.958 1.183-.176.202-.353.226-.656.075-.302-.152-1.272-.469-2.424-1.498-.895-.8-1.5-1.788-1.676-2.09-.176-.303-.018-.467.133-.618.136-.137.302-.353.454-.53.15-.176.202-.302.302-.505.101-.202.05-.378-.025-.53-.075-.152-.682-1.642-.934-2.25-.246-.591-.497-.512-.682-.52h-.581c-.202 0-.53.076-.807.378-.278.303-1.06 1.035-1.06 2.525 0 1.49 1.085 2.93 1.236 3.132.152.202 2.133 3.255 5.166 4.56.721.31 1.282.496 1.722.635.723.23 1.381.197 1.897.12.583-.087 1.783-.73 2.035-1.436.252-.705.252-1.312.176-1.437-.075-.126-.277-.202-.579-.354z"/></svg>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-bold mb-6">Services</h4>
+<ul class="space-y-4">
+<li><a class="text-gray-600 hover:text-primary transition-colors font-body-md text-body-md" href="/software-development.html">Software Development</a></li>
+<li><a class="text-gray-600 hover:text-primary transition-colors font-body-md text-body-md" href="/web-app-development.html">Web App Development</a></li>
+<li><a class="text-gray-600 hover:text-primary transition-colors font-body-md text-body-md" href="/mobile-solutions.html">Mobile Solutions</a></li>
+<li><a class="text-gray-600 hover:text-primary transition-colors font-body-md text-body-md" href="/cloud-migration.html">Cloud Migration</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6">Company</h4>
+<ul class="space-y-4">
+<li><a class="text-gray-600 hover:text-primary transition-colors font-body-md text-body-md" href="/#about">About Us</a></li>
+<li><a class="text-gray-600 hover:text-primary transition-colors font-body-md text-body-md" href="/#portfolio">Our Portfolio</a></li>
+<li><a class="text-gray-600 hover:text-primary transition-colors font-body-md text-body-md" href="/privacy-policy.html">Privacy Policy</a></li>
+<li><a class="text-gray-600 hover:text-primary transition-colors font-body-md text-body-md" href="/terms-of-service.html">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6">Stay Connected</h4>
+<p class="text-gray-600 text-sm mb-4">Subscribe to our newsletter for latest tech insights.</p>
+<div class="flex gap-2">
+<input class="bg-white border border-outline-variant rounded-lg px-4 py-2 w-full text-sm text-gray-900" placeholder="Email address" type="email">
+<button class="bg-primary-container p-2 rounded-lg text-on-primary-container">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-margin-desktop py-8 border-t border-outline-variant/5 text-center text-gray-600 text-xs">
+            © 2023 Steve Jon Solutions LLP. All rights reserved. Calicut, Kerala.
+        </div>
+</footer>
+<script>
+        // Micro-interaction for form labels
+        const inputs = document.querySelectorAll('input, select, textarea');
+        inputs.forEach(input => {
+            input.addEventListener('focus', () => {
+                input.previousElementSibling.classList.add('text-primary');
+            });
+            input.addEventListener('blur', () => {
+                input.previousElementSibling.classList.remove('text-primary');
+            });
+        });
+
+        // Smooth scroll reveal observer
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+            observer.observe(section);
+        });
+        const contactForm = document.getElementById('contact-form');
+        const formMessage = document.getElementById('form-message');
+
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const formData = new FormData(contactForm);
+                const url = contactForm.getAttribute('action');
+                
+                formMessage.classList.remove('hidden', 'text-red-500', 'text-green-500');
+                formMessage.classList.add('text-primary');
+                formMessage.textContent = 'Sending message...';
+                
+                fetch(url, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                })
+                .then(response => {
+                    if (response.ok) {
+                        formMessage.classList.remove('text-primary');
+                        formMessage.classList.add('text-green-500');
+                        formMessage.textContent = 'msg send ok';
+                        contactForm.reset();
+                    } else {
+                        response.json().then(data => {
+                            formMessage.classList.remove('text-primary');
+                            formMessage.classList.add('text-red-500');
+                            if (Object.hasOwn(data, 'errors')) {
+                                formMessage.textContent = data["errors"].map(error => error["message"]).join(", ");
+                            } else {
+                                formMessage.textContent = 'Oops! There was a problem submitting your form';
+                            }
+                        })
+                    }
+                })
+                .catch(error => {
+                    formMessage.classList.remove('text-primary');
+                    formMessage.classList.add('text-red-500');
+                    formMessage.textContent = 'Oops! There was a problem submitting your form';
+                });
+            });
+        }
+    </script>
+
+    <!-- Floating Action Buttons -->
+    <div class="fixed bottom-6 left-6 z-50">
+        <button id="goTopBtn" class="bg-primary text-on-primary w-12 h-12 rounded-full flex items-center justify-center shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:scale-110 hover:-translate-y-1 transition-all duration-300 opacity-0 translate-y-10 pointer-events-none" aria-label="Go to top">
+            <span class="material-symbols-outlined">arrow_upward</span>
+        </button>
+    </div>
+
+    <div class="fixed bottom-6 right-6 z-50 group">
+        <a href="https://wa.me/919995433003" target="_blank" rel="noopener noreferrer" class="relative bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:scale-110 hover:-translate-y-1 transition-all duration-300 z-10" aria-label="Chat on WhatsApp">
+            <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+        <span class="absolute top-0 left-0 w-full h-full rounded-full bg-[#25D366] opacity-40 group-hover:animate-ping pointer-events-none"></span>
+    </div>
+
+    <script>
+        // Mobile menu logic
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+        let isMenuOpen = false;
+
+        if (mobileMenuBtn && mobileMenu) {
+            mobileMenuBtn.addEventListener('click', () => {
+                isMenuOpen = !isMenuOpen;
+                if (isMenuOpen) {
+                    mobileMenu.classList.remove('hidden');
+                    // Small delay to allow display:block to apply before transition
+                    setTimeout(() => {
+                        mobileMenu.classList.remove('-translate-y-4', 'opacity-0');
+                        mobileMenuBtn.querySelector('span').textContent = 'close';
+                    }, 10);
+                } else {
+                    mobileMenu.classList.add('-translate-y-4', 'opacity-0');
+                    mobileMenuBtn.querySelector('span').textContent = 'menu';
+                    setTimeout(() => {
+                        mobileMenu.classList.add('hidden');
+                    }, 300);
+                }
+            });
+
+            // Close menu when a link is clicked
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    isMenuOpen = false;
+                    mobileMenu.classList.add('-translate-y-4', 'opacity-0');
+                    mobileMenuBtn.querySelector('span').textContent = 'menu';
+                    setTimeout(() => {
+                        mobileMenu.classList.add('hidden');
+                    }, 300);
+                });
+            });
+        }
+
+        // Go to top logic
+        const goTopBtn = document.getElementById('goTopBtn');
+        if (goTopBtn) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    goTopBtn.classList.remove('opacity-0', 'translate-y-10', 'pointer-events-none');
+                    goTopBtn.classList.add('opacity-100', 'translate-y-0');
+                } else {
+                    goTopBtn.classList.add('opacity-0', 'translate-y-10', 'pointer-events-none');
+                    goTopBtn.classList.remove('opacity-100', 'translate-y-0');
+                }
+            });
+
+            goTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+    </script>
+</body></html>
