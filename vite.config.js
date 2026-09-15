@@ -10,6 +10,8 @@ export default defineConfig({
         webAppDevelopment: resolve(__dirname, 'web-app-development.html'),
         mobileSolutions: resolve(__dirname, 'mobile-solutions.html'),
         cloudMigration: resolve(__dirname, 'cloud-migration.html'),
+        digitalMarketing: resolve(__dirname, 'digital-marketing.html'),
+        influencerMarketing: resolve(__dirname, 'influencer-marketing.html'),
         privacyPolicy: resolve(__dirname, 'privacy-policy.html'),
         termsOfService: resolve(__dirname, 'terms-of-service.html'),
       },
